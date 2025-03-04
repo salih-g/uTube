@@ -14,7 +14,14 @@ export const HomeNavbar = () => {
           <SidebarTrigger />
           <Link href='/'>
             <div className='p-4 flex items-center gap-1'>
-              <Image src='/logo.svg' height={32} width={32} alt='Logo' />
+              <Image
+                src='/logo.svg'
+                width={0}
+                height={0}
+                alt='Logo'
+                priority={false}
+                style={{ width: '42px', height: 'auto' }}
+              />
               <p className='text-xl font-semibold tracking-tight'>uTube</p>
             </div>
           </Link>
