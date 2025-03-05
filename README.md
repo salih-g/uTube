@@ -1,1 +1,1 @@
-# Youtube clone for learning purpuse of next
+Learning project for Next15, Clerk Drizzle and more
